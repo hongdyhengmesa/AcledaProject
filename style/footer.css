@@ -1,0 +1,93 @@
+.container > footer {
+  width: 100%;
+  background-color: var(--menu-color);
+}
+/* About Style */
+.container > footer > .about {
+  width: 100%;
+  background-color: gray;
+  display: flex;
+}
+.container > footer > .about > .card {
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid #555;
+}
+.container > footer > .about > .card > p {
+  color: #fff;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.container > footer > .about > .card > p > a {
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.container > footer > .about > .card > p > a:hover {
+  text-decoration: underline;
+}
+
+.container > footer > .about > .card:last-child {
+  border: none;
+}
+
+/* Contact Style */
+.container > footer > .contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.container > footer > .contact > .data-contact {
+  width: 50%;
+  padding: 0 20px;
+}
+.container > footer > .contact > .data-contact > .ul1,
+.container > footer > .contact > .data-contact > .online-visit,
+.container > footer > .contact > .data-contact > .ul2,
+.container > footer > .contact > .data-contact > p {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 500;
+  list-style: none;
+  margin: 20px 0;
+}
+.container > footer > .contact > .data-contact > .ul1 > li > a,
+.container > footer > .contact > .data-contact > .online-visit > span {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.container > footer > .contact > .data-contact > .ul1 > li > a:hover {
+  text-decoration: underline;
+}
+.container > footer > .contact > .data-contact > .detail-bank {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 10px;
+  font-weight: 500;
+}
+.container > footer > .contact > .data-contact > .detail-bank > img {
+  width: 170px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.container > footer > .contact > .data-contact > .ul2 > li > a > img {
+  width: 33px;
+  border-radius: 50%;
+  border: 1px solid rgb(29, 78, 127);
+  padding: 1px;
+  margin: 0 5px;
+}
+.container > footer > .contact > .data-contact > .ul2 > li > a > img:hover {
+  border: 1px solid white;
+}
